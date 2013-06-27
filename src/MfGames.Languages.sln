@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MfGames.Languages", "MfGames.Languages\MfGames.Languages.csproj", "{457C2577-D621-466B-9541-87C729EACE52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2A12C25B-D431-4DAC-9274-A48AFA031B3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MfGames.Languages.Tests", "MfGames.Languages.Tests\MfGames.Languages.Tests.csproj", "{720384CC-6DA3-48A0-BA04-51829F5D4DBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8DD70966-EB65-4C48-9759-DFFDE214B123}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{457C2577-D621-466B-9541-87C729EACE52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{457C2577-D621-466B-9541-87C729EACE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{457C2577-D621-466B-9541-87C729EACE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{457C2577-D621-466B-9541-87C729EACE52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720384CC-6DA3-48A0-BA04-51829F5D4DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720384CC-6DA3-48A0-BA04-51829F5D4DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720384CC-6DA3-48A0-BA04-51829F5D4DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720384CC-6DA3-48A0-BA04-51829F5D4DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{720384CC-6DA3-48A0-BA04-51829F5D4DBE} = {2A12C25B-D431-4DAC-9274-A48AFA031B3F}
+	EndGlobalSection
+EndGlobal
