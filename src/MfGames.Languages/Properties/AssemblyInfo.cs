@@ -10,7 +10,9 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 
 [assembly: AssemblyTitle("MfGames Languages")]
-[assembly: AssemblyDescription("Utilities and functionality for dealing with written languages.")]
+[assembly:
+	AssemblyDescription(
+		"Utilities and functionality for dealing with written languages.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Moonfire Games")]
 [assembly: AssemblyProduct("Moonfire Games' Languages")]
