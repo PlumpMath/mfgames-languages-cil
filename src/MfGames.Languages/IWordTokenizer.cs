@@ -4,6 +4,11 @@
 
 namespace MfGames.Languages
 {
+	/// <summary>
+	/// Describes the interface for classes that can find the boundaries between
+	/// words. This is used for cursor navigation with words and merging multiple
+	/// operations together for text editing.
+	/// </summary>
 	public interface IWordTokenizer
 	{
 		#region Methods
